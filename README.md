@@ -39,3 +39,9 @@
 ### Learn_the_CSS_Box_Model_by_Building_a_Rothko_Painting
 
 ![figure-8](./Learn_the_CSS_Box_Model_by_Building_a_Rothko_Painting/img-1.jpg)
+
+---
+
+### Learn_CSS_Flexbox_by_Building_a_Photo_Gallery
+
+![figure-9](./Learn_CSS_Flexbox_by_Building_a_Photo_Gallery/img-1.jpg)
