@@ -20,3 +20,16 @@
 ### Learn_CSS_Colors_by_Building_a_Set_of_Colored_Markers
 
 ![figure-4](./Learn_CSS_Colors_by_Building_a_Set_of_Colored_Markers/img-1.jpg)
+
+---
+
+### Learn_HTML_Forms_by_Building_a_Registration_Form
+
+![figure-5](./Learn_HTML_Forms_by_Building_a_Registration_Form/img-1.jpg)
+![figure-6](./Learn_HTML_Forms_by_Building_a_Registration_Form/img-2.jpg)
+
+---
+
+### Survey Form
+
+![figure-7](./Survey_Form/imgs/img-2.jpg)

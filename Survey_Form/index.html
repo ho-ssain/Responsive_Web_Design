@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>hkBlog-Survey</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">HkBlog Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+    </header>
+
+    <main>
+      <form action="#" id="survey-form">
+        <fieldset>
+          <label for="name" id="name-label">
+            Name
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter Your name"
+              required
+            />
+          </label>
+          <label for="email" id="email-label">
+            Email
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your Email"
+              required
+            />
+          </label>
+          <label for="age" id="number-label">
+            Age (optional)
+            <input
+              type="number"
+              max="110"
+              min="15"
+              placeholder="15"
+              id="number"
+            />
+          </label>
+
+          <label for="dropdown" id="dropdown-label">
+            <legend>Which option best describes your current role?</legend>
+            <select name="dropdown" id="dropdown">
+              <option value="0">Select Your current role</option>
+              <option value="1">Student</option>
+              <option value="2">Full-time-job</option>
+              <option value="3">Full-time-learner</option>
+              <option value="4">Prefer not say</option>
+              <option value="5">Other</option>
+            </select>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Would you recommend hkBlog to a friend?</legend>
+          <label for="definitely">
+            <input
+              type="radio"
+              value="Definitely"
+              name="referer"
+              id="definitely"
+              checked
+              class="inline"
+            />
+            Definitely
+          </label>
+          <label for="maybe">
+            <input
+              type="radio"
+              name="referer"
+              id="maybe"
+              class="inline"
+              value="Maybe"
+            />
+            Maybe
+          </label>
+          <label for="not_sure">
+            <input
+              type="radio"
+              name="referer"
+              id="not_sure"
+              class="inline"
+              value="Not sure"
+            />
+            Not sure
+          </label>
+
+          <legend>What is your favorite Category of hkBlog?</legend>
+          <select name="dropdown" id="dropdown">
+            <option value="0">Select an option</option>
+            <option value="1">Web Development</option>
+            <option value="2">Mobile Development</option>
+            <option value="3">Date Science</option>
+            <option value="4">Machine Learning</option>
+            <option value="5">BlockChain</option>
+          </select>
+
+          <legend>
+            What would you like to see improved? (Check all that apply)
+          </legend>
+          <label for="i-1">
+            <input
+              type="checkbox"
+              id="i-1"
+              checked
+              class="inline"
+              value="v-1"
+            />
+            Web-development
+          </label>
+          <label for="i-2">
+            <input type="checkbox" id="i-2" class="inline" value="v-2" />
+            Mobile-development
+          </label>
+          <label for="i-3">
+            <input type="checkbox" id="i-3" class="inline" value="v-3" />
+            Software Management
+          </label>
+          <label for="i-4">
+            <input type="checkbox" id="i-4" class="inline" value="v-4" />
+            Software Testing
+          </label>
+          <label for="i-5">
+            <input type="checkbox" id="i-5" class="inline" value="v-5" />
+            Data Science
+          </label>
+          <label for="i-6">
+            <input type="checkbox" id="i-6" class="inline" value="v-6" />
+            Data Analysis
+          </label>
+          <label for="i-7">
+            <input type="checkbox" id="i-7" class="inline" value="v-7" />
+            Machine Learning
+          </label>
+          <label for="i-8">
+            <input type="checkbox" id="i-8" class="inline" value="v=8" />
+            Blockchain
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Any comments or suggestions?</legend>
+          <textarea
+            name=""
+            id="comments"
+            cols="30"
+            rows="5"
+            placeholder="Enter your comment here..."
+          ></textarea>
+          <button id="submit">Submit</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
